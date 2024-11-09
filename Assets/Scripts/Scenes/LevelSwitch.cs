@@ -20,22 +20,8 @@ public class LevelSwitch : MonoBehaviour
             SceneManager.LoadScene(sceneBuildIndex, LoadSceneMode.Single);
             print("interaction");
         }
-
-        
     }
-    //private bool interactionPressed = false;
-
-    //private void Update () {
-    //    if (Input.GetKeyDown(KeyCode.E))
-    //    {
-    //        interactionPressed = true;
-    //        print("interactionPressed");
-    //    } /*else if (Input.GetKeyUp(KeyCode.E))
-    //    {
-    //        interactionPressed = false;
-    //        print("cancel interaction");
-    //    }*/
-    //}
+    
     private void OnTriggerEnter2D (Collider2D other) {
         print("Trigger Entered");
         

@@ -35,21 +35,6 @@ public class PlayerMovement : MonoBehaviour {
 
     public bool IsGrounded => isGrounded;
 
-    public bool interactionInput;
-    //[SerializeField] private InputActionReference interaction;
-    //public bool interactionPressed = false;
-
-    //private void OnEnable () {
-    //    interaction.action.performed += PerformInteraction;
-    //}
-
-    //private void OnDisable () {
-    //    interaction.action.performed -= PerformInteraction;
-    //}
-
-    //private void PerformInteraction (InputAction.CallbackContext obj) {
-    //    interactionPressed = true;
-    //}
 
     private void Awake () {
         body = GetComponent<Rigidbody2D>();
@@ -72,27 +57,11 @@ public class PlayerMovement : MonoBehaviour {
         movementInput = input.Get<Vector2>();
     }
 
-    public void OnInteraction() {
-        interactionInput = true;
-    }
-
     private void FixedUpdate () {
         GroundCheck();
         SlopeCheck();
 
-        //if (Input.GetKeyDown(KeyCode.E))
-        //{
-        //    interactionPressed = true;
-        //    print("interactionPressed");
-        //}
-
-        //if (Input.GetKeyUp(KeyCode.E))
-        //{
-        //    interactionPressed = false;
-        //    print("cancel interaction");
-        //}
-
-
+        
         animator.SetFloat("Speed", Mathf.Abs(movementInput.x));
 
         if (!isGrounded)
@@ -133,7 +102,6 @@ public class PlayerMovement : MonoBehaviour {
 
         jumpInput = false;
         animator.SetBool("IsJumping", false);
-        interactionInput = false;//
         // Я изменил движение на изменение скорости обьекта, чтобы это работало нужно поставить
         // параметр Linear Damp в значение 50 у вашего RigidBody.
         body.velocity += (movementDirection * speed + gravityVelocity) * 10;
