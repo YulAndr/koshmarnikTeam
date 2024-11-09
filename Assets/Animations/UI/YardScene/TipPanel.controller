@@ -57,7 +57,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: TipDisappearance1
+  m_Name: TipDisappearance3
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
@@ -71,7 +71,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 44ae5d4e2e0fcc94c821ab2ad0b94fac, type: 2}
+  m_Motion: {fileID: 7400000, guid: 59afdb02c88df144da798403d305e413, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -143,10 +143,10 @@ AnimatorStateMachine:
   m_ChildStates:
   - serializedVersion: 1
     m_State: {fileID: -4905902384969769163}
-    m_Position: {x: 440, y: 200, z: 0}
+    m_Position: {x: 510, y: 180, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 8251863105977011479}
-    m_Position: {x: 440, y: 50, z: 0}
+    m_Position: {x: 500, y: 60, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -4569377558141036117}
     m_Position: {x: 260, y: 130, z: 0}
@@ -192,7 +192,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: TipAppearance1
+  m_Name: TipAppearance3
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
@@ -206,7 +206,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 49e8ed79ff61ab1409d6357f4752b6f9, type: 2}
+  m_Motion: {fileID: 7400000, guid: 5ef6cc41cfd737546841401a80383e65, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
