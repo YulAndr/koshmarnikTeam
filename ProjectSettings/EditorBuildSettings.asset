@@ -20,5 +20,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Forest.unity
     guid: 7c3817dd313bb8e4186e51e4f840fabd
+  - enabled: 1
+    path: Assets/Scenes/Swamp.unity
+    guid: a7e34ef8f68bd9a4aa1f28a22e24796f
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 104ccbbc2f4bd8e46b94fe213a7a0233, type: 3}
