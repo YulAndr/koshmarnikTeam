@@ -190,7 +190,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 3.21
+  orthographic size: 3.83
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -1527,6 +1527,10 @@ PrefabInstance:
       propertyPath: m_Follow
       value: 
       objectReference: {fileID: 1519111481}
+    - target: {fileID: 2864392535332907522, guid: 95cb1fee26d14e64eb1889339a432502, type: 3}
+      propertyPath: m_Lens.OrthographicSize
+      value: 3.83
+      objectReference: {fileID: 0}
     - target: {fileID: 4372903754730202522, guid: 95cb1fee26d14e64eb1889339a432502, type: 3}
       propertyPath: m_Name
       value: Virtual Camera
@@ -1643,11 +1647,11 @@ SceneRoots:
   m_Roots:
   - {fileID: 119995543}
   - {fileID: 2847284494690590114}
+  - {fileID: 524889150063480816}
   - {fileID: 1857470120}
   - {fileID: 1275651213}
   - {fileID: 1888732142}
   - {fileID: 4099022714842440823}
-  - {fileID: 524889150063480816}
   - {fileID: 907200704275310151}
   - {fileID: 811118809361266258}
   - {fileID: 1433083972}
