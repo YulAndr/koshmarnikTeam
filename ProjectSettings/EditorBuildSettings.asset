@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Seni.unity
     guid: e195e126d398601488a78bf5392b9f0e
   - enabled: 1
+    path: Assets/Scenes/Yard.unity
+    guid: ddb43dfef473de340bc13bed7dd25f43
+  - enabled: 1
     path: Assets/Scenes/Forest.unity
     guid: 7c3817dd313bb8e4186e51e4f840fabd
   m_configObjects:
